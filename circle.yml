@@ -1,0 +1,7 @@
+general:
+  dependencies:
+    pre:
+      - 'npm i -g bower'
+      - 'bower i'
+  artifacts:
+    - "coverage"
